@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-05-08T19:45:50.690340",
+  "samples": 5,
+  "interval": 2,
+  "data": [
+    {
+      "timestamp": "2026-05-08T19:45:40.504686",
+      "cpu_percent": 13.7,
+      "memory_percent": 34.2,
+      "disk_percent": 93.3,
+      "net_sent": 22210836,
+      "net_recv": 9914989
+    },
+    {
+      "timestamp": "2026-05-08T19:45:42.548706",
+      "cpu_percent": 19.4,
+      "memory_percent": 34.2,
+      "disk_percent": 93.3,
+      "net_sent": 22211381,
+      "net_recv": 9915795
+    },
+    {
+      "timestamp": "2026-05-08T19:45:44.580287",
+      "cpu_percent": 10.8,
+      "memory_percent": 34.2,
+      "disk_percent": 93.3,
+      "net_sent": 22211779,
+      "net_recv": 9919374
+    },
+    {
+      "timestamp": "2026-05-08T19:45:46.616801",
+      "cpu_percent": 10.3,
+      "memory_percent": 34.2,
+      "disk_percent": 93.3,
+      "net_sent": 22211782,
+      "net_recv": 9919374
+    },
+    {
+      "timestamp": "2026-05-08T19:45:48.648316",
+      "cpu_percent": 11.7,
+      "memory_percent": 34.2,
+      "disk_percent": 93.3,
+      "net_sent": 22211784,
+      "net_recv": 9919434
+    }
+  ]
+}

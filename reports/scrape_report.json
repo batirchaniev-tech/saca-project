@@ -1,0 +1,11 @@
+{
+  "url": "https://example.com",
+  "selector": "p",
+  "timestamp": "2026-05-08T19:45:24.519022",
+  "scraped_at": "2026-05-08T19:45:24.519038",
+  "results": [
+    "This domain is for use in documentation examples without needing permission. Avoid use in operations.",
+    "Learn more"
+  ],
+  "emails_found": []
+}

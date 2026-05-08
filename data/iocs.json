@@ -1,0 +1,11 @@
+{
+  "suspicious_extensions": [".exe", ".bat", ".ps1", ".vbs", ".cmd"],
+  "suspicious_filenames": ["hack", "crack", "keygen", "backdoor", "exploit"],
+  "suspicious_filename_patterns": ["*.exe", "*.bat", "crack_*", "hack_*"],
+  "suspicious_patterns": [
+    "password\\s*=",
+    "api[_-]?key",
+    "secret[_-]?key",
+    "token\\s*="
+  ]
+}

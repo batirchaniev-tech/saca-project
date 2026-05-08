@@ -1,0 +1,936 @@
+{
+  "timestamp": "2026-05-08T19:46:36.329739",
+  "reports": [
+    {
+      "file": "merged_report.json",
+      "content": {
+        "timestamp": "2026-05-08T19:33:26.939655",
+        "reports": [
+          {
+            "file": "merged_report.json",
+            "content": {
+              "timestamp": "2026-05-07T16:41:52.522952",
+              "reports": [
+                {
+                  "file": "merged_report.json",
+                  "content": {
+                    "timestamp": "2026-05-07T16:30:34.670362",
+                    "reports": [
+                      {
+                        "file": "merged_report.json",
+                        "content": {
+                          "timestamp": "2026-05-07T16:29:24.638309",
+                          "reports": [
+                            {
+                              "file": "merged_report.json",
+                              "content": {
+                                "timestamp": "2026-05-07T16:27:17.852359",
+                                "reports": [
+                                  {
+                                    "file": "merged_report.json",
+                                    "content": {
+                                      "timestamp": "2026-05-07T16:26:40.651451",
+                                      "reports": [
+                                        {
+                                          "file": "merged_report.json",
+                                          "content": {
+                                            "timestamp": "2026-05-07T16:20:33.538178",
+                                            "reports": [
+                                              {
+                                                "file": "merged_report.json",
+                                                "content": {
+                                                  "timestamp": "2026-05-07T15:44:30.373635",
+                                                  "reports": [
+                                                    {
+                                                      "file": "netscan_report.json",
+                                                      "content": {
+                                                        "target": "127.0.0.1",
+                                                        "open_ports": [
+                                                          {
+                                                            "host": "127.0.0.1",
+                                                            "port": 19876,
+                                                            "service": "unknown",
+                                                            "timestamp": "2026-05-07T15:44:30.362397"
+                                                          }
+                                                        ],
+                                                        "total_open": 1,
+                                                        "timestamp": "2026-05-07T15:44:30.363564"
+                                                      }
+                                                    },
+                                                    {
+                                                      "file": "scan_report.json",
+                                                      "content": {
+                                                        "directory": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpav6_zhqw",
+                                                        "total_files": 3,
+                                                        "suspicious": 2,
+                                                        "timestamp": "2026-05-07T15:44:29.605282",
+                                                        "findings": [
+                                                          {
+                                                            "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpav6_zhqw\\backdoor.bat",
+                                                            "extension": ".bat",
+                                                            "size": 17,
+                                                            "suspicious": true,
+                                                            "reasons": [
+                                                              "suspicious extension .bat",
+                                                              "suspicious filename keyword"
+                                                            ],
+                                                            "timestamp": "2026-05-07T15:44:29.604189",
+                                                            "quarantined": false,
+                                                            "quarantine_dest": null
+                                                          },
+                                                          {
+                                                            "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpav6_zhqw\\readme.txt",
+                                                            "extension": ".txt",
+                                                            "size": 22,
+                                                            "suspicious": false,
+                                                            "reasons": [],
+                                                            "timestamp": "2026-05-07T15:44:29.604577",
+                                                            "quarantined": false,
+                                                            "quarantine_dest": null
+                                                          },
+                                                          {
+                                                            "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpav6_zhqw\\script.py",
+                                                            "extension": ".py",
+                                                            "size": 22,
+                                                            "suspicious": true,
+                                                            "reasons": [
+                                                              "pattern match: password\\s*="
+                                                            ],
+                                                            "timestamp": "2026-05-07T15:44:29.605018",
+                                                            "quarantined": false,
+                                                            "quarantine_dest": null
+                                                          }
+                                                        ]
+                                                      }
+                                                    },
+                                                    {
+                                                      "file": "test_a.json",
+                                                      "content": {
+                                                        "source": "a",
+                                                        "data": 1
+                                                      }
+                                                    },
+                                                    {
+                                                      "file": "test_b.json",
+                                                      "content": {
+                                                        "source": "b",
+                                                        "data": 2
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "file": "netscan_report.json",
+                                                "content": {
+                                                  "target": "127.0.0.1",
+                                                  "open_ports": [
+                                                    {
+                                                      "host": "127.0.0.1",
+                                                      "port": 19876,
+                                                      "service": "unknown",
+                                                      "timestamp": "2026-05-07T16:20:33.514625"
+                                                    }
+                                                  ],
+                                                  "total_open": 1,
+                                                  "timestamp": "2026-05-07T16:20:33.532409"
+                                                }
+                                              },
+                                              {
+                                                "file": "scan_report.json",
+                                                "content": {
+                                                  "directory": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpra6g0y9n",
+                                                  "total_files": 3,
+                                                  "suspicious": 2,
+                                                  "timestamp": "2026-05-07T16:20:32.774537",
+                                                  "findings": [
+                                                    {
+                                                      "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpra6g0y9n\\backdoor.bat",
+                                                      "extension": ".bat",
+                                                      "size": 17,
+                                                      "suspicious": true,
+                                                      "reasons": [
+                                                        "suspicious extension .bat",
+                                                        "suspicious filename keyword"
+                                                      ],
+                                                      "timestamp": "2026-05-07T16:20:32.773843",
+                                                      "quarantined": false,
+                                                      "quarantine_dest": null
+                                                    },
+                                                    {
+                                                      "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpra6g0y9n\\readme.txt",
+                                                      "extension": ".txt",
+                                                      "size": 22,
+                                                      "suspicious": false,
+                                                      "reasons": [],
+                                                      "timestamp": "2026-05-07T16:20:32.774101",
+                                                      "quarantined": false,
+                                                      "quarantine_dest": null
+                                                    },
+                                                    {
+                                                      "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpra6g0y9n\\script.py",
+                                                      "extension": ".py",
+                                                      "size": 22,
+                                                      "suspicious": true,
+                                                      "reasons": [
+                                                        "pattern match: password\\s*="
+                                                      ],
+                                                      "timestamp": "2026-05-07T16:20:32.774357",
+                                                      "quarantined": false,
+                                                      "quarantine_dest": null
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "file": "test_a.json",
+                                                "content": {
+                                                  "source": "a",
+                                                  "data": 1
+                                                }
+                                              },
+                                              {
+                                                "file": "test_b.json",
+                                                "content": {
+                                                  "source": "b",
+                                                  "data": 2
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "file": "netscan_report.json",
+                                          "content": {
+                                            "target": "127.0.0.1",
+                                            "open_ports": [
+                                              {
+                                                "host": "127.0.0.1",
+                                                "port": 19876,
+                                                "service": "unknown",
+                                                "timestamp": "2026-05-07T16:26:40.621497"
+                                              }
+                                            ],
+                                            "total_open": 1,
+                                            "timestamp": "2026-05-07T16:26:40.642868"
+                                          }
+                                        },
+                                        {
+                                          "file": "scan_report.json",
+                                          "content": {
+                                            "directory": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpwep49tqy",
+                                            "total_files": 3,
+                                            "suspicious": 2,
+                                            "timestamp": "2026-05-07T16:26:39.870293",
+                                            "findings": [
+                                              {
+                                                "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpwep49tqy\\backdoor.bat",
+                                                "extension": ".bat",
+                                                "size": 17,
+                                                "suspicious": true,
+                                                "reasons": [
+                                                  "suspicious extension .bat",
+                                                  "suspicious filename keyword"
+                                                ],
+                                                "timestamp": "2026-05-07T16:26:39.869215",
+                                                "quarantined": false,
+                                                "quarantine_dest": null
+                                              },
+                                              {
+                                                "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpwep49tqy\\readme.txt",
+                                                "extension": ".txt",
+                                                "size": 22,
+                                                "suspicious": false,
+                                                "reasons": [],
+                                                "timestamp": "2026-05-07T16:26:39.869583",
+                                                "quarantined": false,
+                                                "quarantine_dest": null
+                                              },
+                                              {
+                                                "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpwep49tqy\\script.py",
+                                                "extension": ".py",
+                                                "size": 22,
+                                                "suspicious": true,
+                                                "reasons": [
+                                                  "pattern match: password\\s*="
+                                                ],
+                                                "timestamp": "2026-05-07T16:26:39.870002",
+                                                "quarantined": false,
+                                                "quarantine_dest": null
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "file": "test_a.json",
+                                          "content": {
+                                            "source": "a",
+                                            "data": 1
+                                          }
+                                        },
+                                        {
+                                          "file": "test_b.json",
+                                          "content": {
+                                            "source": "b",
+                                            "data": 2
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "file": "netscan_report.json",
+                                    "content": {
+                                      "target": "127.0.0.1",
+                                      "open_ports": [
+                                        {
+                                          "host": "127.0.0.1",
+                                          "port": 19876,
+                                          "service": "unknown",
+                                          "timestamp": "2026-05-07T16:27:17.836913"
+                                        }
+                                      ],
+                                      "total_open": 1,
+                                      "timestamp": "2026-05-07T16:27:17.843658"
+                                    }
+                                  },
+                                  {
+                                    "file": "scan_report.json",
+                                    "content": {
+                                      "directory": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpr8jhr40b",
+                                      "total_files": 3,
+                                      "suspicious": 2,
+                                      "timestamp": "2026-05-07T16:27:17.093137",
+                                      "findings": [
+                                        {
+                                          "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpr8jhr40b\\backdoor.bat",
+                                          "extension": ".bat",
+                                          "size": 17,
+                                          "suspicious": true,
+                                          "reasons": [
+                                            "suspicious extension .bat",
+                                            "suspicious filename keyword"
+                                          ],
+                                          "timestamp": "2026-05-07T16:27:17.092100",
+                                          "quarantined": false,
+                                          "quarantine_dest": null
+                                        },
+                                        {
+                                          "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpr8jhr40b\\readme.txt",
+                                          "extension": ".txt",
+                                          "size": 22,
+                                          "suspicious": false,
+                                          "reasons": [],
+                                          "timestamp": "2026-05-07T16:27:17.092448",
+                                          "quarantined": false,
+                                          "quarantine_dest": null
+                                        },
+                                        {
+                                          "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpr8jhr40b\\script.py",
+                                          "extension": ".py",
+                                          "size": 22,
+                                          "suspicious": true,
+                                          "reasons": [
+                                            "pattern match: password\\s*="
+                                          ],
+                                          "timestamp": "2026-05-07T16:27:17.092869",
+                                          "quarantined": false,
+                                          "quarantine_dest": null
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "file": "test_a.json",
+                                    "content": {
+                                      "source": "a",
+                                      "data": 1
+                                    }
+                                  },
+                                  {
+                                    "file": "test_b.json",
+                                    "content": {
+                                      "source": "b",
+                                      "data": 2
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "file": "netscan_report.json",
+                              "content": {
+                                "target": "127.0.0.1",
+                                "open_ports": [
+                                  {
+                                    "host": "127.0.0.1",
+                                    "port": 19876,
+                                    "service": "unknown",
+                                    "timestamp": "2026-05-07T16:29:24.613532"
+                                  }
+                                ],
+                                "total_open": 1,
+                                "timestamp": "2026-05-07T16:29:24.628907"
+                              }
+                            },
+                            {
+                              "file": "scan_report.json",
+                              "content": {
+                                "directory": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpnuzorf4l",
+                                "total_files": 3,
+                                "suspicious": 2,
+                                "timestamp": "2026-05-07T16:29:23.881859",
+                                "findings": [
+                                  {
+                                    "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpnuzorf4l\\backdoor.bat",
+                                    "extension": ".bat",
+                                    "size": 17,
+                                    "suspicious": true,
+                                    "reasons": [
+                                      "suspicious extension .bat",
+                                      "suspicious filename keyword"
+                                    ],
+                                    "timestamp": "2026-05-07T16:29:23.880877",
+                                    "quarantined": false,
+                                    "quarantine_dest": null
+                                  },
+                                  {
+                                    "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpnuzorf4l\\readme.txt",
+                                    "extension": ".txt",
+                                    "size": 22,
+                                    "suspicious": false,
+                                    "reasons": [],
+                                    "timestamp": "2026-05-07T16:29:23.881217",
+                                    "quarantined": false,
+                                    "quarantine_dest": null
+                                  },
+                                  {
+                                    "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpnuzorf4l\\script.py",
+                                    "extension": ".py",
+                                    "size": 22,
+                                    "suspicious": true,
+                                    "reasons": [
+                                      "pattern match: password\\s*="
+                                    ],
+                                    "timestamp": "2026-05-07T16:29:23.881554",
+                                    "quarantined": false,
+                                    "quarantine_dest": null
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "file": "test_a.json",
+                              "content": {
+                                "source": "a",
+                                "data": 1
+                              }
+                            },
+                            {
+                              "file": "test_b.json",
+                              "content": {
+                                "source": "b",
+                                "data": 2
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "file": "netscan_report.json",
+                        "content": {
+                          "target": "127.0.0.1",
+                          "open_ports": [
+                            {
+                              "host": "127.0.0.1",
+                              "port": 19876,
+                              "service": "unknown",
+                              "timestamp": "2026-05-07T16:30:34.651899"
+                            }
+                          ],
+                          "total_open": 1,
+                          "timestamp": "2026-05-07T16:30:34.661190"
+                        }
+                      },
+                      {
+                        "file": "scan_report.json",
+                        "content": {
+                          "directory": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpxedi93hk",
+                          "total_files": 3,
+                          "suspicious": 2,
+                          "timestamp": "2026-05-07T16:30:33.909097",
+                          "findings": [
+                            {
+                              "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpxedi93hk\\backdoor.bat",
+                              "extension": ".bat",
+                              "size": 17,
+                              "suspicious": true,
+                              "reasons": [
+                                "suspicious extension .bat",
+                                "suspicious filename keyword"
+                              ],
+                              "timestamp": "2026-05-07T16:30:33.908191",
+                              "quarantined": false,
+                              "quarantine_dest": null
+                            },
+                            {
+                              "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpxedi93hk\\readme.txt",
+                              "extension": ".txt",
+                              "size": 22,
+                              "suspicious": false,
+                              "reasons": [],
+                              "timestamp": "2026-05-07T16:30:33.908519",
+                              "quarantined": false,
+                              "quarantine_dest": null
+                            },
+                            {
+                              "file": "C:\\Users\\batir\\AppData\\Local\\Temp\\tmpxedi93hk\\script.py",
+                              "extension": ".py",
+                              "size": 22,
+                              "suspicious": true,
+                              "reasons": [
+                                "pattern match: password\\s*="
+                              ],
+                              "timestamp": "2026-05-07T16:30:33.908860",
+                              "quarantined": false,
+                              "quarantine_dest": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "file": "scrape_report.json",
+                        "content": {
+                          "url": "http://test.local",
+                          "selector": "p",
+                          "timestamp": "2026-05-07T16:29:24.662137",
+                          "scraped_at": "2026-05-07T16:29:24.662146",
+                          "results": [
+                            "Hello world",
+                            "Contact us at test@example.com or info@test.org"
+                          ],
+                          "emails_found": [
+                            "info@test.org",
+                            "test@example.com"
+                          ]
+                        }
+                      },
+                      {
+                        "file": "test_a.json",
+                        "content": {
+                          "source": "a",
+                          "data": 1
+                        }
+                      },
+                      {
+                        "file": "test_b.json",
+                        "content": {
+                          "source": "b",
+                          "data": 2
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "file": "netscan_report.json",
+                  "content": {
+                    "target": "127.0.0.1",
+                    "open_ports": [],
+                    "total_open": 0,
+                    "timestamp": "2026-05-07T16:32:05.799873"
+                  }
+                },
+                {
+                  "file": "scan_report.json",
+                  "content": {
+                    "directory": "data",
+                    "total_files": 2,
+                    "suspicious": 0,
+                    "timestamp": "2026-05-07T16:31:44.951549",
+                    "findings": [
+                      {
+                        "file": "data\\config.json",
+                        "extension": ".json",
+                        "size": 701,
+                        "suspicious": false,
+                        "reasons": [],
+                        "timestamp": "2026-05-07T16:31:44.949811",
+                        "quarantined": false,
+                        "quarantine_dest": null
+                      },
+                      {
+                        "file": "data\\iocs.json",
+                        "extension": ".json",
+                        "size": 345,
+                        "suspicious": false,
+                        "reasons": [],
+                        "timestamp": "2026-05-07T16:31:44.950995",
+                        "quarantined": false,
+                        "quarantine_dest": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "file": "scrape_report.json",
+                  "content": {
+                    "url": "https://example.com",
+                    "selector": "p",
+                    "timestamp": "2026-05-07T16:32:21.605479",
+                    "scraped_at": "2026-05-07T16:32:21.605496",
+                    "results": [
+                      "This domain is for use in documentation examples without needing permission. Avoid use in operations.",
+                      "Learn more"
+                    ],
+                    "emails_found": []
+                  }
+                },
+                {
+                  "file": "sysmon_report.json",
+                  "content": {
+                    "timestamp": "2026-05-07T16:32:48.482141",
+                    "samples": 5,
+                    "interval": 2,
+                    "data": [
+                      {
+                        "timestamp": "2026-05-07T16:32:38.303202",
+                        "cpu_percent": 25.9,
+                        "memory_percent": 43.0,
+                        "disk_percent": 92.9,
+                        "net_sent": 45110670,
+                        "net_recv": 311874970
+                      },
+                      {
+                        "timestamp": "2026-05-07T16:32:40.342198",
+                        "cpu_percent": 20.8,
+                        "memory_percent": 42.9,
+                        "disk_percent": 92.9,
+                        "net_sent": 45110935,
+                        "net_recv": 311875150
+                      },
+                      {
+                        "timestamp": "2026-05-07T16:32:42.376624",
+                        "cpu_percent": 21.6,
+                        "memory_percent": 42.9,
+                        "disk_percent": 92.9,
+                        "net_sent": 45111090,
+                        "net_recv": 311875150
+                      },
+                      {
+                        "timestamp": "2026-05-07T16:32:44.407930",
+                        "cpu_percent": 18.2,
+                        "memory_percent": 42.9,
+                        "disk_percent": 92.9,
+                        "net_sent": 45111941,
+                        "net_recv": 311875879
+                      },
+                      {
+                        "timestamp": "2026-05-07T16:32:46.439843",
+                        "cpu_percent": 18.3,
+                        "memory_percent": 42.9,
+                        "disk_percent": 92.9,
+                        "net_sent": 45112335,
+                        "net_recv": 311876234
+                      }
+                    ]
+                  }
+                },
+                {
+                  "file": "test_a.json",
+                  "content": {
+                    "source": "a",
+                    "data": 1
+                  }
+                },
+                {
+                  "file": "test_b.json",
+                  "content": {
+                    "source": "b",
+                    "data": 2
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "file": "netscan_report.json",
+            "content": {
+              "target": "127.0.0.1",
+              "open_ports": [],
+              "total_open": 0,
+              "timestamp": "2026-05-08T19:32:49.810091"
+            }
+          },
+          {
+            "file": "scan_report.json",
+            "content": {
+              "directory": "data",
+              "total_files": 3,
+              "suspicious": 0,
+              "timestamp": "2026-05-08T19:32:40.713090",
+              "findings": [
+                {
+                  "file": "data\\config.json",
+                  "extension": ".json",
+                  "size": 701,
+                  "suspicious": false,
+                  "reasons": [],
+                  "timestamp": "2026-05-08T19:32:40.709667",
+                  "quarantined": false,
+                  "quarantine_dest": null
+                },
+                {
+                  "file": "data\\iocs.json",
+                  "extension": ".json",
+                  "size": 345,
+                  "suspicious": false,
+                  "reasons": [],
+                  "timestamp": "2026-05-08T19:32:40.710987",
+                  "quarantined": false,
+                  "quarantine_dest": null
+                },
+                {
+                  "file": "data\\screenshots\\screenshot_20260507_163720.png",
+                  "extension": ".png",
+                  "size": 8156,
+                  "suspicious": false,
+                  "reasons": [],
+                  "timestamp": "2026-05-08T19:32:40.711372",
+                  "quarantined": false,
+                  "quarantine_dest": null
+                }
+              ]
+            }
+          },
+          {
+            "file": "scrape_report.json",
+            "content": {
+              "url": "https://example.com",
+              "selector": "p",
+              "timestamp": "2026-05-08T19:33:02.281065",
+              "scraped_at": "2026-05-08T19:33:02.281079",
+              "results": [
+                "This domain is for use in documentation examples without needing permission. Avoid use in operations.",
+                "Learn more"
+              ],
+              "emails_found": []
+            }
+          },
+          {
+            "file": "sniff_report.json",
+            "content": {
+              "total_packets": 30,
+              "http_packets": 0,
+              "credential_hits": 0,
+              "packets": [],
+              "saved_at": "2026-05-08T13:22:50.397408"
+            }
+          },
+          {
+            "file": "sysmon_report.json",
+            "content": {
+              "timestamp": "2026-05-08T19:33:22.724509",
+              "samples": 5,
+              "interval": 2,
+              "data": [
+                {
+                  "timestamp": "2026-05-08T19:33:12.556759",
+                  "cpu_percent": 10.4,
+                  "memory_percent": 34.1,
+                  "disk_percent": 93.3,
+                  "net_sent": 9715855,
+                  "net_recv": 7944105
+                },
+                {
+                  "timestamp": "2026-05-08T19:33:14.588814",
+                  "cpu_percent": 5.1,
+                  "memory_percent": 34.1,
+                  "disk_percent": 93.3,
+                  "net_sent": 9716144,
+                  "net_recv": 7947671
+                },
+                {
+                  "timestamp": "2026-05-08T19:33:16.618401",
+                  "cpu_percent": 2.7,
+                  "memory_percent": 34.0,
+                  "disk_percent": 93.3,
+                  "net_sent": 9716341,
+                  "net_recv": 7947783
+                },
+                {
+                  "timestamp": "2026-05-08T19:33:18.650252",
+                  "cpu_percent": 3.4,
+                  "memory_percent": 34.0,
+                  "disk_percent": 93.3,
+                  "net_sent": 9716751,
+                  "net_recv": 7948033
+                },
+                {
+                  "timestamp": "2026-05-08T19:33:20.679280",
+                  "cpu_percent": 15.1,
+                  "memory_percent": 34.0,
+                  "disk_percent": 93.3,
+                  "net_sent": 9725863,
+                  "net_recv": 7949830
+                }
+              ]
+            }
+          },
+          {
+            "file": "test_a.json",
+            "content": {
+              "source": "a",
+              "data": 1
+            }
+          },
+          {
+            "file": "test_b.json",
+            "content": {
+              "source": "b",
+              "data": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "file": "netscan_report.json",
+      "content": {
+        "target": "127.0.0.1",
+        "open_ports": [],
+        "total_open": 0,
+        "timestamp": "2026-05-08T19:45:11.907365"
+      }
+    },
+    {
+      "file": "scan_report.json",
+      "content": {
+        "directory": "data",
+        "total_files": 3,
+        "suspicious": 0,
+        "timestamp": "2026-05-08T19:44:56.195707",
+        "findings": [
+          {
+            "file": "data\\config.json",
+            "extension": ".json",
+            "size": 701,
+            "suspicious": false,
+            "reasons": [],
+            "timestamp": "2026-05-08T19:44:56.193552",
+            "quarantined": false,
+            "quarantine_dest": null
+          },
+          {
+            "file": "data\\iocs.json",
+            "extension": ".json",
+            "size": 345,
+            "suspicious": false,
+            "reasons": [],
+            "timestamp": "2026-05-08T19:44:56.194620",
+            "quarantined": false,
+            "quarantine_dest": null
+          },
+          {
+            "file": "data\\screenshots\\screenshot_20260507_163720.png",
+            "extension": ".png",
+            "size": 8156,
+            "suspicious": false,
+            "reasons": [],
+            "timestamp": "2026-05-08T19:44:56.194976",
+            "quarantined": false,
+            "quarantine_dest": null
+          }
+        ]
+      }
+    },
+    {
+      "file": "scrape_report.json",
+      "content": {
+        "url": "https://example.com",
+        "selector": "p",
+        "timestamp": "2026-05-08T19:45:24.519022",
+        "scraped_at": "2026-05-08T19:45:24.519038",
+        "results": [
+          "This domain is for use in documentation examples without needing permission. Avoid use in operations.",
+          "Learn more"
+        ],
+        "emails_found": []
+      }
+    },
+    {
+      "file": "sniff_report.json",
+      "content": {
+        "total_packets": 30,
+        "http_packets": 0,
+        "credential_hits": 0,
+        "packets": [],
+        "saved_at": "2026-05-08T13:22:50.397408"
+      }
+    },
+    {
+      "file": "sysmon_report.json",
+      "content": {
+        "timestamp": "2026-05-08T19:45:50.690340",
+        "samples": 5,
+        "interval": 2,
+        "data": [
+          {
+            "timestamp": "2026-05-08T19:45:40.504686",
+            "cpu_percent": 13.7,
+            "memory_percent": 34.2,
+            "disk_percent": 93.3,
+            "net_sent": 22210836,
+            "net_recv": 9914989
+          },
+          {
+            "timestamp": "2026-05-08T19:45:42.548706",
+            "cpu_percent": 19.4,
+            "memory_percent": 34.2,
+            "disk_percent": 93.3,
+            "net_sent": 22211381,
+            "net_recv": 9915795
+          },
+          {
+            "timestamp": "2026-05-08T19:45:44.580287",
+            "cpu_percent": 10.8,
+            "memory_percent": 34.2,
+            "disk_percent": 93.3,
+            "net_sent": 22211779,
+            "net_recv": 9919374
+          },
+          {
+            "timestamp": "2026-05-08T19:45:46.616801",
+            "cpu_percent": 10.3,
+            "memory_percent": 34.2,
+            "disk_percent": 93.3,
+            "net_sent": 22211782,
+            "net_recv": 9919374
+          },
+          {
+            "timestamp": "2026-05-08T19:45:48.648316",
+            "cpu_percent": 11.7,
+            "memory_percent": 34.2,
+            "disk_percent": 93.3,
+            "net_sent": 22211784,
+            "net_recv": 9919434
+          }
+        ]
+      }
+    },
+    {
+      "file": "test_a.json",
+      "content": {
+        "source": "a",
+        "data": 1
+      }
+    },
+    {
+      "file": "test_b.json",
+      "content": {
+        "source": "b",
+        "data": 2
+      }
+    }
+  ]
+}

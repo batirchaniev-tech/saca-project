@@ -1,0 +1,32 @@
+{
+  "scan": {
+    "log_file": "reports/scan_report.json",
+    "quarantine_dir": "quarantine"
+  },
+  "net_scan": {
+    "common_ports": [22, 80, 443, 3389],
+    "log_file": "reports/netscan_report.json"
+  },
+  "sniff": {
+    "output_file": "reports/sniff_report.json"
+  },
+  "scrape": {
+    "output_file": "reports/scrape_report.json"
+  },
+  "web_auto": {
+    "screenshot_dir": "data/screenshots"
+  },
+  "ssh": {
+    "output_file": "reports/ssh_report.json"
+  },
+  "report": {
+    "output_dir": "reports",
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 25
+  },
+  "sysmon": {
+    "interval": 2,
+    "samples": 5,
+    "output_file": "reports/sysmon_report.json"
+  }
+}

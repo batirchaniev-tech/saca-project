@@ -1,0 +1,38 @@
+{
+  "directory": "data",
+  "total_files": 3,
+  "suspicious": 0,
+  "timestamp": "2026-05-08T19:44:56.195707",
+  "findings": [
+    {
+      "file": "data\\config.json",
+      "extension": ".json",
+      "size": 701,
+      "suspicious": false,
+      "reasons": [],
+      "timestamp": "2026-05-08T19:44:56.193552",
+      "quarantined": false,
+      "quarantine_dest": null
+    },
+    {
+      "file": "data\\iocs.json",
+      "extension": ".json",
+      "size": 345,
+      "suspicious": false,
+      "reasons": [],
+      "timestamp": "2026-05-08T19:44:56.194620",
+      "quarantined": false,
+      "quarantine_dest": null
+    },
+    {
+      "file": "data\\screenshots\\screenshot_20260507_163720.png",
+      "extension": ".png",
+      "size": 8156,
+      "suspicious": false,
+      "reasons": [],
+      "timestamp": "2026-05-08T19:44:56.194976",
+      "quarantined": false,
+      "quarantine_dest": null
+    }
+  ]
+}
